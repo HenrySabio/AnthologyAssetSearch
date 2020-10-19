@@ -1,0 +1,19 @@
+{
+  "name": "anthologyassetsearch",
+  "version": "1.0.0",
+  "description": "Anthology Dropbox Marketing Asset Search/Compiler",
+  "main": "functions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HenrySabio/AnthologyAssetSearch.git"
+  },
+  "author": "Henry Sabio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HenrySabio/AnthologyAssetSearch/issues"
+  },
+  "homepage": "https://github.com/HenrySabio/AnthologyAssetSearch#readme"
+}
