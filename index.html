@@ -4,8 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anthology Marketing Asset Request</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+    <div class="container">
+        <form id="form" class="form">
+            <div class="logo">
+                <div class="logo-inner">
+                    <img class="anthology-logo" src="img/Anthology_Logo.png" alt="Anthology Tile Logo">
+                </div>
+            </div>
+            <h2>Anthology Tile Marketing Asset Search Form</h2>
+            <p class="description">This tool will allow you to search existing marketing assets at your convenience and provide you with a direct link to download the results of your search request.</p>
+            <div class="form-control">
+                <label for="email">Enter your email address</label>
+                <p class="form-help">When you submit your search, a direct download link to your results will be emailed to you.</p>
+                <input type="text" id="email" placeholder="Enter email">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="search-options">What are you searching for?</label>
+                <select name="search-options" id="search-options">
+                    <option value=""></option>
+                    <option value="ProductAllAngles">Product Image (All Angles)</option>
+                    <option value="ProductAAngles">Product Image (A Angles)</option>
+                    <option value="ProductBAngles">Product Image (B Angles)</option>
+                    <option value="ProductCAngles">Product Image (C Angles)</option>
+                    <option value="RoomScenes">Room Scenes</option>
+                    <option value="ConceptLabels">Concept Board Labels</option>
+                    <option value="GroutedLabels">Grouted Board Labels</option>
+                </select>
+                <label for="search-query">What are you seqrching for?</label>
+                <p class="form-help">Enter valid product codes for the specific assets you are seartching for, if searching for multiple items - please seperate each code by comma.
+                    For example, if searching for Anthology products, use valid product codes, if searching for anthologoy labels, use valid label codes.
+                    Invalid codes will return "Item not found" errors.
+                </p>
+                <input type="text" id="search-query" placeholder="Enter product codes here">
+                <small>Error Message</small>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
 </body>
+
+<script src="functions.js"></script>
 </html>
