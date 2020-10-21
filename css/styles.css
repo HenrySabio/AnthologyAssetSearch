@@ -54,7 +54,7 @@ p.form-help {
 }
 
 label {
-    color: #f8f8f2 !important;
+    color: #364560 !important;
 }
 
 .form {
@@ -107,6 +107,11 @@ label {
 
 .form-control.error small {
     visibility: visible;
+}
+
+.form-control select {
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .form button {
